@@ -1,3 +1,40 @@
 .App {
   text-align: center;
+  color: black;
+}
+h2 {
+  color: black;
+}
+
+.Fuels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  text-align: left;
+}
+.searchResult {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#errLineOne {
+  margin-bottom: 100%;
+}
+#footnote {
+  font-size: 10px;
+  color: black;
+  margin-top: 10%;
+}
+
+a {
+  text-decoration: none;
+}
+
+#made-by {
+  font-size: 10px;
+  color: grey;
 }

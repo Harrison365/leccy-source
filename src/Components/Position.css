@@ -1,0 +1,20 @@
+.emoji {
+  padding-right: 10px;
+}
+.fuelName {
+  padding-right: 10px;
+}
+
+table {
+  font-size: 150%;
+}
+
+td {
+  padding-bottom: 10px;
+}
+
+@media (max-width: 666px) {
+  table {
+    font-size: 100%;
+  }
+}

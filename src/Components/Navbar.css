@@ -1,0 +1,55 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #113f67;
+  justify-content: center;
+}
+
+.navbar-title {
+  flex: 1;
+  max-width: 40%;
+  display: inline-block;
+  text-align: left;
+  margin-left: 3%;
+  font-size: 150%;
+  color: white;
+}
+
+#search {
+  filter: invert(00%);
+  border: 2px solid white;
+}
+
+.navbar-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-image {
+  width: 50px;
+  max-height: 30px;
+  aspect-ratio: 2.5/2;
+  margin-left: 2%;
+  margin-right: 3%;
+  border-radius: 30%;
+  transition: transform 0.2s; /* makes hover zoom below smoother*/
+}
+
+.navbar-image:hover {
+  transform: scale(1.25);
+}
+
+.flagText {
+  font-size: 15px;
+  color: white;
+  white-space: nowrap;
+}
+
+@media (max-width: 1000px) {
+  h2 {
+    display: none;
+  }
+}
