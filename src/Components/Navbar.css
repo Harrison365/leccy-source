@@ -48,7 +48,7 @@
   white-space: nowrap;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1130px) {
   h2 {
     display: none;
   }
