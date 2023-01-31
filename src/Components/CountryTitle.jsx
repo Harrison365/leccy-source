@@ -3,15 +3,15 @@ import "./CountryTitle.css";
 
 export default function CountryTitle({ country }) {
   if (country === "UK") {
-    return <h1>United Kingdom 🇬🇧</h1>;
+    return <h1 className="country-title">United Kingdom 🇬🇧</h1>;
   }
   if (country === "england") {
-    return <h1>England 🏴󠁧󠁢󠁥󠁮󠁧󠁿</h1>;
+    return <h1 className="country-title">England 🏴󠁧󠁢󠁥󠁮󠁧󠁿</h1>;
   }
   if (country === "scotland") {
-    return <h1>Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</h1>;
+    return <h1 className="country-title">Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿</h1>;
   }
   if (country === "wales") {
-    return <h1>Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿</h1>;
+    return <h1 className="country-title">Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿</h1>;
   }
 }
