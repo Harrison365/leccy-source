@@ -27,7 +27,7 @@ td {
 #footnote {
   font-size: 10px;
   color: black;
-  margin-top: 10%;
+  margin-top: 7%;
 }
 
 a {
@@ -37,4 +37,9 @@ a {
 #made-by {
   font-size: 10px;
   color: grey;
+}
+@media (max-width: 500px) {
+  #footnote {
+    margin-top: 35%;
+  }
 }

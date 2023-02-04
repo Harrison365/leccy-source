@@ -152,7 +152,7 @@ function App() {
         target="_blank"
         rel="noreferrer"
       >
-        <p id="footnote">Powered by the National Grid API </p>
+        <p id="footnote">Powered by the National Grid API (No Affiliation) </p>
       </a>
       <a href="https://github.com/Harrison365" target="_blank" rel="noreferrer">
         <p id="made-by">Made by Harrison365 </p>
