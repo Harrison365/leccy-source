@@ -2,9 +2,15 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = ({ setCountry }) => {
+  const refreshClick = () => {
+    window.location.reload();
+  };
+
   return (
     <nav className="navbar">
-      <h1 className="navbar-title">Leccy Source⚡️</h1>
+      <h1 className="navbar-title" onClick={refreshClick}>
+        Leccy Source⚡️
+      </h1>
       <div className="navbar-images">
         <h2 className="flagText">United Kingdom</h2>
         <img
