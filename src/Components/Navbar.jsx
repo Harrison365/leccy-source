@@ -59,7 +59,7 @@ const Navbar = ({ setCountry }) => {
         <h2 className="flagText">Search</h2>
         <img
           src={
-            "https://png.pngitem.com/pimgs/s/107-1073254_magnifying-glass-print-clipart-pink-background-transparent-transparent.png"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/800px-Vector_search_icon.svg.png"
           }
           alt="image4"
           className="navbar-image"
