@@ -61,6 +61,7 @@ function App() {
     return (
       <div className="App">
         <Navbar setCountry={setCountry} />
+        <CountryTitle country={country} />
         <p>Loading...⏳</p>
       </div>
     );
